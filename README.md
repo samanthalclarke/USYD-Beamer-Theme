@@ -1,6 +1,6 @@
 # USYD-brand-tex
 
-This will be an unofficial (brand-compliant) LaTeX Beamer theme for the School of Mathematics and Statistics, University of Sydney.
+This repo contains an unofficial (brand-compliant) LaTeX Beamer theme for the School of Mathematics and Statistics, University of Sydney.
 
 Created by: Samantha Clarke
 
