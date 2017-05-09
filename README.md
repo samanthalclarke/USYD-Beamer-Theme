@@ -10,16 +10,16 @@ This repo contains an unofficial University of Sydney LaTeX Beamer theme for the
 
 **Complied with**: pdflatex
 
-Based on: BerlinFU theme (http://www.mi.fu-berlin.de/w/Mi/BeamerTemplateCorporateDesign) and Seth Brown's bunsen theme (http://www.drbunsen.org/home/2011/11/2/designing-a-custom-beamer-template-theme-for-presentations.html). 
+**Based on**: BerlinFU theme (http://www.mi.fu-berlin.de/w/Mi/BeamerTemplateCorporateDesign) and Seth Brown's bunsen theme (http://www.drbunsen.org/home/2011/11/2/designing-a-custom-beamer-template-theme-for-presentations.html). 
 
 Please see the beamerusyd_example.pdf and beamerusyd_example.tex to get an idea of what the theme looks like.
 
-This template is still under development. Any comments, feedback, additions, or suggestions are welcome. 
+*This template is still under development. Any comments, feedback, additions, or suggestions are welcome.* 
 
 ### Getting started:
-- Download the files from the GitHub link as a zip file 
+- Download the files from the GitHub link as a zip file. 
     - GitHub users are welcome to clone or fork. 
-- You can now use the beamerusyd_example.tex as you would like any other LaTeX file
+- You can now use the beamerusyd_example.tex as you would like any other LaTeX file.
     - If you use R Studio, there is an R Studio project file included if you wish to use that. You will need to set that up the usual wasy you set up R Studio projects (which is not covered here). 
 
 ### A few pointers:
