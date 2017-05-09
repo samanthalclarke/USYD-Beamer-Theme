@@ -1,8 +1,7 @@
 %--------------------------------------------------------------------
 %                           Introduction
 %--------------------------------------------------------------------
-% This is an example of an unofficial University of Sydney LaTeX Beamer theme for the 
-% School of Mathematics and Statistics.
+% This is an example of an unofficial University of Sydney LaTeX Beamer theme for the School of Mathematics and Statistics.
 
 % Created by: Samantha Clarke
 % Version: 0.1
@@ -15,8 +14,7 @@
 
 % This file can be redistributed and/or modified under the terms of the GNU Public License, version 3.
 
-% Please note that this template is still under development. Any comments, feedback, additions, 
-% or suggestions are welcome. 
+% Please note that this template is still under development. Any comments, feedback, additions, or suggestions are welcome. 
 
 %--------------------------------------------------------------------
 %                           Document Setup
@@ -38,7 +36,7 @@
 \beamertemplatenavigationsymbolsempty
 
 %% setting themes (inner & outer) - style definitions / changes
-%\usetheme{usyd}							% use eventually when doc setup is separated into .sty files
+%\usetheme{usyd}							% use when doc setup is separated into .sty files
 %\setbeamercolor{title}{fg=usydblack}		% note: not using title, author etc. ATM so not needed
 %\setbeamercolor{author}{fg=usydblack}
 \setbeamercolor{frametitle}{fg=usydred}
@@ -126,8 +124,28 @@ Faculty, Centre, or Unit					% Department
 
 %------------------------------ Slide ------------------------------%
 
+\begin{frame}{Slide Heading A}
+
+Here is a list:
+\begin{itemize}
+\item Item X.
+\item Item Y.
+\end{itemize}
+
+\bigskip
+
+A numbered list:
+\begin{enumerate}
+\item Point 1
+\item Point 2
+\end{enumerate}
+
+\end{frame}
+
+%------------------------------ Slide ------------------------------%
+
 \begin{frame} 
-\frametitle{Slide Heading A} 
+\frametitle{Slide Heading B} 
 \framesubtitle{The proof uses \textit{reductio ad absurdum}.} 
 
 \begin{theorem}
@@ -138,24 +156,6 @@ There is no largest prime number. \end{theorem}
 \item<3-> Then $q+1$ is not divisible by any of them. 
 \item<1-> But $q + 1$ is greater than $1$, thus divisible by some prime
 number not in the first $p$ numbers.
-\end{enumerate}
-
-\end{frame}
-
-%------------------------------ Slide ------------------------------%
-
-\begin{frame}{Slide Heading B}
-
-Here is a list:
-\begin{itemize}
-\item Item X.
-\item Item Y.
-\end{itemize}
-
-A numbered list:
-\begin{enumerate}
-\item Point 1
-\item Point 2
 \end{enumerate}
 
 \end{frame}
