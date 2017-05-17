@@ -35,7 +35,7 @@
 % suppress navigation bar
 \beamertemplatenavigationsymbolsempty
 
-%% setting themes (inner & outer) - style definitions / changes
+%% setting themes (inner & outer) OR style definitions / changes (theme v. template)
 %\usetheme{usyd}							% use when template is converted to theme & setup is separated into .sty files
 %\setbeamercolor{title}{fg=usydblack}		% note: not using title, author etc. ATM so not needed
 %\setbeamercolor{author}{fg=usydblack}
@@ -44,7 +44,6 @@
 \setbeamercovered{transparent}				% use if you want greyed out steps rather than invisible
 
 %\renewcommand\labelitemi{---}				% itemise as dashes - need to check if this works
-
 
 % set fonts
 \usefonttheme{structurebold}				% change font theme to Structurebold
@@ -59,6 +58,14 @@
 \definecolor{usydblue}{RGB}{1,72,164}
 \definecolor{usydgrey}{RGB}{241,241,241}
 
+% document details
+\title{Presentation Title}
+\subtitle{Presentation Subtitle} % (optional)
+\author{Dr Smith}
+\institute{University of Sydney}
+\date{2017}
+
+
 %--------------------------------------------------------------------
 %                           Begin Document
 %--------------------------------------------------------------------
@@ -72,7 +79,7 @@
 % Set the background for the title slide.
 \setbeamertemplate{background}
 {\includegraphics[width=\paperwidth,height=\paperheight]{titlebgstd2jun16.pdf}}
-\setbeamertemplate{footline}[default]
+%\setbeamertemplate{footline}[default]
 
 \begin{frame}
 \vspace{2cm}
@@ -90,20 +97,19 @@ Faculty, Centre, or Unit					% Department
 \end{frame}
 
 %--------------------------------------------------------------------
-%                           Section Divider Slide
+%                           Section Divider Slide 1
 %--------------------------------------------------------------------
 
 % Set the background for the section divider slide.
 \setbeamertemplate{background}
 {\includegraphics[width=\paperwidth,height=\paperheight]{sectiondivstd2jun16.pdf}}
-\setbeamertemplate{footline}[default]
 
 \begin{frame}
 \vspace{1cm}
 \begin{columns}
 \column{5.5cm}
-{\bf{\color{usydwhite}Section Divider Heading}}	\\	% Section Divider Heading
-{\color{usydwhite}Section Divider Subheading}		% Section Divider Subtitle
+{\bf{\color{usydwhite}Section Divider Heading 1}}	\\	% Section Divider Heading
+{\color{usydwhite}Section Divider Subheading 1}			% Section Divider Subtitle
 
 \column{6cm}
 \end{columns}
@@ -114,10 +120,12 @@ Faculty, Centre, or Unit					% Department
 %                          Section 1
 %-------------------------------------------------------------------
 %
-% Set the background for the rest of the slides.
-\setbeamertemplate{background}[default]
-\setbeamertemplate{footline}[default]
-%\setbeamertemplate{footline}[frame number]		% need to rework this for footers: Page X 
+% Set the background for the rest of Section 1 slides.
+% Note: this is required after each Section Divider Slide. 
+
+\setbeamertemplate{background}[default] 
+%\setbeamertemplate{footline}{%							% Need to fix this still
+%  \raisebox{5pt}{\makebox[\paperwidth]{\hfill\makebox[25pt]{\scriptsize\insertframenumber}}}}
 
 \section{Section 1 Title}
 
@@ -159,7 +167,116 @@ number not in the first $p$ numbers.
 
 \end{frame}
 
-%------------------------------- End -------------------------------%
+%--------------------------------------------------------------------
+%                           Section Divider Slide 2
+%--------------------------------------------------------------------
+
+% Set the background for the section divider slide.
+\setbeamertemplate{background}
+{\includegraphics[width=\paperwidth,height=\paperheight]{sectiondivstd3jun16.pdf}}
+
+\begin{frame}
+\vspace{1cm}
+\begin{columns}
+\column{5.5cm}
+{\bf{\color{usydwhite}Section Divider Heading 2}}	\\	% Section Divider Heading
+{\color{usydwhite}Section Divider Subheading 2}			% Section Divider Subtitle
+
+\column{6cm}
+\end{columns}
+\end{frame}
+
+%-------------------------------------------------------------------
+%                          Section 2
+%-------------------------------------------------------------------
+%
+% Set the background for the rest of Section 2 slides.
+% Note: this is not needed if there is no Section Divider Slide beforehand.
+
+\setbeamertemplate{background}[default]
+
+\section{Title for Section 2}
+
+%------------------------------ Slide ------------------------------%
+
+\begin{frame}
+\frametitle{Sample frame title}
+This is a text in first frame. This is a text in first frame. This is a text in first frame.
+\end{frame}
+
+%------------------------------ Slide ------------------------------%
+
+\begin{frame}{Make Titles Informative.}
+
+  You can create overlays\dots
+  \begin{itemize}
+  \item using the \texttt{pause} command:
+    \begin{itemize}
+    \item
+      First item.
+      \pause
+    \item    
+      Second item.
+    \end{itemize}
+  \item
+    using overlay specifications:
+    \begin{itemize}
+    \item<3->
+      First item.
+    \item<4->
+      Second item.
+    \end{itemize}
+  \item
+    using the general \texttt{uncover} command:
+    \begin{itemize}
+      \uncover<5->{\item
+        First item.}
+      \uncover<6->{\item
+        Second item.}
+    \end{itemize}
+  \end{itemize}
+\end{frame}
+
+%-------------------------------------------------------------------
+%                          Section Summary
+%-------------------------------------------------------------------
+
+% The background settings from Section 2 will continue to apply here.
+
+\section*{Summary}
+
+%------------------------------ Slide ------------------------------%
+
+\begin{frame}{Summary}
+
+  % Keep the summary *very short*.
+  \begin{itemize}
+  \item
+    The \alert{first main message} of your talk in one or two lines.
+  \item
+    The \alert{second main message} of your talk in one or two lines.
+  \item
+    Perhaps a \alert{third message}, but not more than that.
+  \end{itemize}
+  
+  % The following outlook is optional.
+  \vskip0pt plus.5fill
+  \begin{itemize}
+  \item
+    Outlook
+    \begin{itemize}
+    \item
+      Something you haven't solved.
+    \item
+      Something else you haven't solved.
+    \end{itemize}
+  \end{itemize}
+\end{frame}
+
+
+%--------------------------------------------------------------------
+%                           End Document
+%--------------------------------------------------------------------
 
 \end{document}
 
