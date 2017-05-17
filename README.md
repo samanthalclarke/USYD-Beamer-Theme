@@ -1,4 +1,4 @@
-# USYD-Beamer-Theme
+# USYD-Beamer-Template-Theme
 
 This repo contains an unofficial University of Sydney LaTeX Beamer template (theme coming soon) for the School of Mathematics and Statistics.
 
@@ -12,7 +12,7 @@ This repo contains an unofficial University of Sydney LaTeX Beamer template (the
 
 **Based on**: BerlinFU theme (http://www.mi.fu-berlin.de/w/Mi/BeamerTemplateCorporateDesign) and Seth Brown's bunsen theme (http://www.drbunsen.org/home/2011/11/2/designing-a-custom-beamer-template-theme-for-presentations.html). 
 
-Please see the beamerusyd_example.pdf and beamerusyd_example.tex to get an idea of what the template looks like.
+Please see the beamerusyd_template_eg.pdf and beamerusyd_template_eg.tex to get an idea of what the template looks like.
 
 *This template is still under development. Any comments, feedback, additions, or suggestions are welcome.* 
 
