@@ -25,9 +25,9 @@ Please see the beamerusyd_template_eg.pdf and beamerusyd_template_eg.tex to get 
 ### A few pointers:
 - Download the most current version of the **PowerPoint presentation** (standard) from the USYD Staff Intranet - [Basic Design Templates](https://intranet.sydney.edu.au/services/marketing-communications/brand-tools/basic-design-templates.html). 
     - Open in PowerPoint and save as new PowerPoint
-- Creating a **Title Slide with USYD Background** from the USYD brand-compliant PowerPoint presentation:
-    - Check you have the most recent version of the USYD brand-compliant PowerPoint presentation
-    - Open template in PowerPoint 
+- Change the **USYD Title Slide Background** using the USYD brand-compliant PowerPoint presentation:
+    - Check you have the most recent version of the USYD PowerPoint presentation
+    - Open the USYD PowerPoint template in PowerPoint 
     - Add a new title slide from the options
     - Leave the slide blank (i.e. do not add any text on the slide)
     - Exception: if you selected a “add your own picture” title slide, insert your picture
@@ -37,7 +37,7 @@ Please see the beamerusyd_template_eg.pdf and beamerusyd_template_eg.tex to get 
     - Save the single page with a sensible name (e.g. titlebgstdjun16_myimage.pdf)
     - Place this file in the same folder as the Beamer .tex file
     - In .tex file, change the line: \usebackgroundtemplate{\includegraphics[width=\paperwidth,height=\paperheight]{**titlebgstd2jun16.pdf**}} to the name of your single page background title page PDF file. 
-- Creating a **Section Divider Slide with USYD Background** from the USYD brand-compliant PowerPoint presentation:
+- Create other **Section Divider Slides with USYD Background** using the USYD brand-compliant PowerPoint presentation:
     - Follow the same as for Title Slide, using a Section Divider slide within the USYD brand-compliant PowerPoint presentation.
 
 
