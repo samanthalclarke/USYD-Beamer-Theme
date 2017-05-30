@@ -23,7 +23,7 @@ Please see the beamerusyd_template_eg.pdf and beamerusyd_template_eg.tex to get 
     - If you use R Studio, there is an R Studio project file included if you wish to use that. You will need to set that up the usual wasy you set up R Studio projects (which is not covered here). 
 
 ### A few pointers:
-- Download the most current version of the **PowerPoint presentation** (standard) from the USYD Staff Intranet - [Basic Design Templates](https://intranet.sydney.edu.au/services/marketing-communications/brand-tools/basic-design-templates.html). 
+- Download the most current version of the **USYD Brand-compliant PowerPoint presentation** (standard) from the USYD Staff Intranet - [Basic Design Templates](https://intranet.sydney.edu.au/services/marketing-communications/brand-tools/basic-design-templates.html). 
     - Open in PowerPoint and save as new PowerPoint
 - Change the **USYD Title Slide Background** using the USYD brand-compliant PowerPoint presentation:
     - Check you have the most recent version of the USYD PowerPoint presentation
