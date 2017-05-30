@@ -39,5 +39,3 @@ Please see the beamerusyd_template_eg.pdf and beamerusyd_template_eg.tex to get 
     - In beamerinnerthemeusyd2016.sty file, change the line: \pgfdeclareimage[height=\paperheight,width=\paperwidth]{titlebackground}{**titlebgstd2jun16.pdf**}} to the name of your single page background title page PDF file. 
 - Create other **Section Divider Slides with USYD Background** using the USYD brand-compliant PowerPoint presentation:
     - Follow the same as for Title Slide, using a Section Divider slide within the USYD brand-compliant PowerPoint presentation.
-
-
