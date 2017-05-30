@@ -1,12 +1,12 @@
 # USYD-Beamer-Template-Theme
 
-This repo contains an unofficial University of Sydney LaTeX Beamer template (theme coming soon) for the School of Mathematics and Statistics.
+This repo contains an unofficial University of Sydney LaTeX Beamer template & theme for the School of Mathematics and Statistics.
 
-**Created by**: Samantha Clarke
+**Created by**: Daniel Daners & Samantha Clarke
 
 **Current Version**: 0.1
 
-**Updated**: 17 May 2017
+**Updated**: 31 May 2017
 
 **Complied with**: pdflatex
 
@@ -36,7 +36,7 @@ Please see the beamerusyd_template_eg.pdf and beamerusyd_template_eg.tex to get 
     - Extract the title page as a single page from PDF
     - Save the single page with a sensible name (e.g. titlebgstdjun16_myimage.pdf)
     - Place this file in the same folder as the Beamer .tex file
-    - In .tex file, change the line: \usebackgroundtemplate{\includegraphics[width=\paperwidth,height=\paperheight]{**titlebgstd2jun16.pdf**}} to the name of your single page background title page PDF file. 
+    - In beamerinnerthemeusyd2016.sty file, change the line: \pgfdeclareimage[height=\paperheight,width=\paperwidth]{titlebackground}{**titlebgstd2jun16.pdf**}} to the name of your single page background title page PDF file. 
 - Create other **Section Divider Slides with USYD Background** using the USYD brand-compliant PowerPoint presentation:
     - Follow the same as for Title Slide, using a Section Divider slide within the USYD brand-compliant PowerPoint presentation.
 
