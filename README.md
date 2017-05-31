@@ -20,6 +20,7 @@ Please see the beamerusyd_template_eg.pdf and beamerusyd_template_eg.tex to get 
 - Download the files from the GitHub link as a zip file. 
     - GitHub users are welcome to clone or fork. 
 - You can now use the beamerusyd_example.tex as you would like any other TeX file.
+- Note: you must have the two files titlebgstd2jun16.pdf & sectiondivstd2jun16.pdf in the folder with the .tex & .sty files for the template to run correctly. See "A few pointers" below on how to change these backgrounds.
     - If you use R Studio, there is an R Studio project file included if you wish to use that. You will need to set that up the usual wasy you set up R Studio projects (which is not covered here). 
 
 ### A few pointers:
